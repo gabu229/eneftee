@@ -6,7 +6,7 @@ export default function ItemPage() {
   return (
     <div>
       <div></div>
-      Page Here
+      Show Item On Page Here
     </div>
   );
 }

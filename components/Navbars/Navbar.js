@@ -39,23 +39,29 @@ const HeroNavbar = () => {
                 <div className="text-dark-600 dark:text-dark-300 lg:pr-4 lg:pt-0">
                   <ul className="tracking-wide font-medium text-sm flex-col flex lg:flex-row gap-6 lg:gap-0">
                     <li>
-                      <Link href="/" className="block md:px-4 text-link">
+                      <Link href="/market" className="block md:px-4 text-link">
                         <span>Marketplace</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/" className="block md:px-4 text-link">
+                      <Link
+                        href="/collections"
+                        className="block md:px-4 text-link"
+                      >
+                        <span>Collections</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/artists" className="block md:px-4 text-link">
                         <span>Artists</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/" className="block md:px-4 text-link">
+                      <Link
+                        href="/community"
+                        className="block md:px-4 text-link"
+                      >
                         <span>Community</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/" className="block md:px-4 text-link">
-                        <span>Collections</span>
                       </Link>
                     </li>
                   </ul>
